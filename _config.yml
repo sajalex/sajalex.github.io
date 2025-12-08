@@ -1,0 +1,24 @@
+# GitHub Pages Configuration
+title: My Personal Website
+description: A professional website built with GitHub Pages
+theme: jekyll-theme-minimal
+url: https://sajalex.github.io/website
+baseurl: /website
+
+# Social media links
+social:
+  github: sajalex
+  twitter: 
+  linkedin: 
+
+# Additional settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Exclude certain files from build
+exclude:
+  - .git
+  - .gitignore
+  - node_modules
